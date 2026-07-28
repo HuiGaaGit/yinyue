@@ -9,7 +9,7 @@
 | 文件 | 说明 |
 | --- | --- |
 | `pet.json` | 宠物元数据，包含宠物 ID、显示名称、简介和精灵图路径。 |
-| `spritesheet.webp` | 透明背景动画图集，供 Codex 读取并播放。 |
+| `spritesheet.webp` | 透明背景 v2 动画图集，供 Codex 读取并播放。 |
 
 `pet.json` 内容摘要：
 
@@ -18,15 +18,16 @@
   "id": "yinyue",
   "displayName": "银月",
   "description": "A small silver-haired fox-eared desktop pet inspired by the supplied character sheet and pose sheet.",
+  "spriteVersionNumber": 2,
   "spritesheetPath": "spritesheet.webp"
 }
 ```
 
 ## 动画规格
 
-- 图集尺寸：`1536 x 1872`
+- 图集尺寸：`1536 x 2288`
 - 单帧尺寸：`192 x 208`
-- 网格规格：`8` 列 x `9` 行
+- 网格规格：`8` 列 x `11` 行
 - 图片格式：`WebP`
 - 背景：透明
 
@@ -41,6 +42,8 @@
 | 6 | `waiting` | 6 | 等待状态 |
 | 7 | `running` | 6 | 执行任务中 |
 | 8 | `review` | 6 | 审阅或专注检查 |
+| 9 | `look-row-9` | 8 | 从向上至右下的 8 个顺时针看向方向 |
+| 10 | `look-row-10` | 8 | 从向下至左上的 8 个顺时针看向方向 |
 
 未使用的格子保持透明，方便 Codex 按固定网格读取。
 
@@ -64,6 +67,6 @@ yinyue/
 
 ## 维护说明
 
-- 如果替换 `spritesheet.webp`，请保持 `1536 x 1872` 图集尺寸和 `192 x 208` 单帧尺寸不变。
+- 如果替换 `spritesheet.webp`，请保持 `1536 x 2288` 图集尺寸、`192 x 208` 单帧尺寸和 `spriteVersionNumber: 2` 不变。
 - 如果修改文件名，请同步更新 `pet.json` 里的 `spritesheetPath`。
 - 如果增加或减少动画帧，请确认未使用格子仍为透明，避免播放时出现残影或空白异常。
