@@ -1,0 +1,10 @@
+Use case: identity-preserve.
+Asset: one horizontal six-frame idle sprite strip for the upgraded silver-haired fox-eared girl pet Yin Yue. This is ONE animation strip, never a full atlas.
+
+Input 1 canonical-base.png is the approved primary visual reference. Match its polished detailed 2D anime chibi design exactly: compact approximately three-head proportions, warm amber eyes, softly smiling face, silver long hair with layered strands, fluffy silver fox ears with pale pink interiors, white shrine maiden outfit, intricate gray sleeve embroidery, red obi bow and long red ribbons, and detailed white silver calf boots. Input 2 reference-01.webp is the old low-resolution identity reference only; never copy its pixelated lower detail. Input 3 idle.png is a geometry guide only: exactly six separate full-body poses in one left-to-right horizontal row, centered in invisible equally sized slots, feet on the same baseline, ample transparent padding between bodies and around the entire row. Do not reproduce any guide marks.
+
+Transparent background, real alpha, no colored matte or green background. Preserve the polished fine dark-gray linework and clear cel shading of the canonical base. Each full body remains entirely visible, including ear tips, fingertips, ribbons, and boots. Identical scale and camera in all six frames; no overlap or clipping.
+
+Idle action only, left to right: 1 calm base with eyes open and both arms lowered, 2 subtle inhalation with eyelids half closed, 3 gentle fully closed blink, 4 eyes reopen with chest relaxing, 5 very small ear and hair-tip follow-through, 6 settle near-exactly back to frame 1. Feet are planted at exactly the same height throughout, arms stay lowered, posture and body silhouette are stable. Only subtle breathing, blinking and tiny ear/hair motions. Quiet smooth loop, never six identical copies.
+
+No text, labels, lines, borders, scenery, new props, tail, shadows, ground, glow, blur, motion effects, floating particles, detached effects, extra limbs, waving, running, jumping, talking, or large gestures. Exactly SIX frames and ONE row.

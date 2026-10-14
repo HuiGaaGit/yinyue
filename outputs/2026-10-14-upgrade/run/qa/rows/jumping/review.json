@@ -1,0 +1,97 @@
+{
+  "ok": true,
+  "frames_root": "D:\\\u4e2a\u4eba\u6587\u4ef6\u5939\\\u4e07\u80fd\u6587\u4ef6\u5939\\06\u94f6\u6708\u684c\u5ba0\\outputs\\2026-10-14-upgrade\\run\\qa\\rows\\jumping\\frames",
+  "states": [
+    "jumping"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "D:\\\u4e2a\u4eba\u6587\u4ef6\u5939\\\u4e07\u80fd\u6587\u4ef6\u5939\\06\u94f6\u6708\u684c\u5ba0\\outputs\\2026-10-14-upgrade\\run\\qa\\rows\\jumping\\frames\\jumping\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11330,
+          "bbox": [
+            33,
+            58,
+            159,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "D:\\\u4e2a\u4eba\u6587\u4ef6\u5939\\\u4e07\u80fd\u6587\u4ef6\u5939\\06\u94f6\u6708\u684c\u5ba0\\outputs\\2026-10-14-upgrade\\run\\qa\\rows\\jumping\\frames\\jumping\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11586,
+          "bbox": [
+            37,
+            25,
+            155,
+            183
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "D:\\\u4e2a\u4eba\u6587\u4ef6\u5939\\\u4e07\u80fd\u6587\u4ef6\u5939\\06\u94f6\u6708\u684c\u5ba0\\outputs\\2026-10-14-upgrade\\run\\qa\\rows\\jumping\\frames\\jumping\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11940,
+          "bbox": [
+            33,
+            5,
+            159,
+            159
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "D:\\\u4e2a\u4eba\u6587\u4ef6\u5939\\\u4e07\u80fd\u6587\u4ef6\u5939\\06\u94f6\u6708\u684c\u5ba0\\outputs\\2026-10-14-upgrade\\run\\qa\\rows\\jumping\\frames\\jumping\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12113,
+          "bbox": [
+            33,
+            29,
+            159,
+            191
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "D:\\\u4e2a\u4eba\u6587\u4ef6\u5939\\\u4e07\u80fd\u6587\u4ef6\u5939\\06\u94f6\u6708\u684c\u5ba0\\outputs\\2026-10-14-upgrade\\run\\qa\\rows\\jumping\\frames\\jumping\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11767,
+          "bbox": [
+            39,
+            34,
+            152,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    }
+  ]
+}

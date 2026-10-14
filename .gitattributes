@@ -1,0 +1,6 @@
+# Preserve checkpoint bytes so cloned QA/source hashes remain reproducible.
+* -text
+*.png binary
+*.webp binary
+*.gif binary
+*.mp4 binary

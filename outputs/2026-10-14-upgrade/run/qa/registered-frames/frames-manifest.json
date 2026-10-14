@@ -1,0 +1,16 @@
+{
+  "provenance": "Each source row was extracted by bundled extract_strip_frames.py with method=components; its unmodified frames and actual inspection report remain under qa/rows/<state>.",
+  "registration": "register-standard-frames.ps1: shared 166x180 transform inside native 192x208 at (13,28) for every non-jump frame; jump retains source motion and baseline.",
+  "chroma_key": {"hex": "#00FF00", "rgb": [0, 255, 0]},
+  "rows": [
+    {"state": "idle", "method": "components"},
+    {"state": "running-right", "method": "components"},
+    {"state": "running-left", "method": "components"},
+    {"state": "waving", "method": "components"},
+    {"state": "jumping", "method": "components"},
+    {"state": "failed", "method": "components"},
+    {"state": "waiting", "method": "components"},
+    {"state": "running", "method": "components"},
+    {"state": "review", "method": "components"}
+  ]
+}

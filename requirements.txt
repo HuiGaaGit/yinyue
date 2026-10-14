@@ -1,0 +1,2 @@
+# Used only when the selected Codex runtime does not already include Pillow.
+Pillow==12.3.0

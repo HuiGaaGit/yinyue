@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+outputs/*
+!outputs/2026-10-14-upgrade/
