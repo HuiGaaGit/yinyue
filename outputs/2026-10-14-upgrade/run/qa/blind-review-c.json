@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"Horizontal pair 1","A":"screen-right","B":"screen-left","reason":"A鼻尖及面部朝屏幕右侧偏转，右侧面部轮廓较突出；B鼻尖及双眼朝屏幕左侧偏转。两者转幅较小，但方向可辨。"},
+    {"pair":"Horizontal pair 2","A":"screen-left","B":"screen-right","reason":"A鼻尖伸向屏幕左侧，眼睛顺头部朝左；B鼻尖伸向右侧，脸部与视线同向朝右。"},
+    {"pair":"Horizontal pair 3","A":"screen-right","B":"screen-left","reason":"A鼻尖和下颌前缘朝右，脸露出较多右向轮廓；B鼻尖、眼睛和下颌前缘朝左。"},
+    {"pair":"Horizontal pair 4","A":"screen-right","B":"screen-left","reason":"A面部呈右向侧转，鼻尖向右；B面部呈左向侧转，鼻尖向左，双眼随头朝左。"},
+    {"pair":"Horizontal pair 5","A":"screen-right","B":"screen-left","reason":"两者均有俯视感；A鼻尖与可见面部前缘朝右，B鼻尖及眼睑朝左。"},
+    {"pair":"Horizontal pair 6","A":"screen-left","B":"screen-right","reason":"A低头时鼻尖、脸前缘及眼睛朝左；B低头时鼻尖和脸前缘朝右，方向与A相反。"},
+    {"pair":"Horizontal pair 7","A":"screen-left","B":"screen-right","reason":"A鼻尖偏向左，低垂双眼跟随左转头部；B鼻尖和面部朝右，右向轮廓清楚。"},
+    {"pair":"Vertical pair 1","A":"down","B":"up","reason":"A头部前俯，眼睑低垂、视线向下且额顶更显露；B面部抬起，眼睛张开并向上看，下颌展开。"},
+    {"pair":"Vertical pair 2","A":"down","B":"up","reason":"A鼻尖朝下，眼睛被上眼睑压低，头顶占比更明显；B眼睛向上、脸部抬高，鼻尖及下颌有仰起感。"},
+    {"pair":"Vertical pair 3","A":"up","B":"down","reason":"A眼睛较开且视线偏上，鼻尖和下颌抬起；B眼睑低垂，鼻尖下指，脸部明显前俯。"},
+    {"pair":"Vertical pair 4","A":"up","B":"down","reason":"A鼻尖较高、双眼朝上，抬脸时下颌较展开；B鼻尖较低、眼睛朝下，眉眼压在刘海下，呈俯头。"},
+    {"pair":"Vertical pair 5","A":"down","B":"up","reason":"A头部前俯，双眼向下且眼睑较低；B脸部抬起，眼睛张开朝上，鼻尖仰起。"},
+    {"pair":"Vertical pair 6","A":"down","B":"up","reason":"A眼睑低垂、鼻尖朝下，头顶更显露；B面部抬高、双眼向上，鼻尖和下颌随之抬起。"},
+    {"pair":"Vertical pair 7","A":"up","B":"down","reason":"A抬脸望上，眼睛较开且鼻尖较高；B低头垂眼，鼻尖朝下、额顶更显露。"}
+  ]
+}

@@ -1,12 +1,14 @@
 param(
     [Parameter(Mandatory=$true)][string]$Atlas,
-    [string]$SkillScripts = (Join-Path $PSScriptRoot '../../../tools/pet-pipeline/scripts')
+    [string]$SkillScripts = (Join-Path $PSScriptRoot '../../../tools/pet-pipeline/scripts'),
+    [string]$Python = 'python',
+    [string]$OutputDirectory = (Join-Path $PSScriptRoot 'previews')
 )
 
 # Crop only the exact final encoded atlas. Artwork is neither drawn nor changed.
 $ErrorActionPreference = 'Stop'
 $petFinalAtlas = (Resolve-Path -LiteralPath $Atlas).Path
-$petPreviewRoot = Join-Path $PSScriptRoot 'previews'
+$petPreviewRoot = $OutputDirectory
 $petEncodedFrames = Join-Path $PSScriptRoot 'qa/final-frames'
 $petSpecs = @(
     @('idle',0,6), @('running-right',1,8), @('running-left',2,8),
@@ -26,7 +28,7 @@ foreach ($petSpec in $petSpecs) {
         if ($LASTEXITCODE -ne 0) { throw "Final frame export failed: $petFramePath" }
     }
 }
-& python (Join-Path $SkillScripts 'render_animation_previews.py') --frames-root $petEncodedFrames --output-dir $petPreviewRoot
+& $Python (Join-Path $SkillScripts 'render_animation_previews.py') --frames-root $petEncodedFrames --output-dir $petPreviewRoot
 if ($LASTEXITCODE -ne 0) { throw 'Bundled state-preview export failed' }
 
 # Reuse the bundled preview encoder and its authoritative frame durations.
@@ -50,7 +52,7 @@ save_preview(idle+jump+idle,ROW_DURATIONS['idle']+ROW_DURATIONS['jumping']+ROW_D
 record={'atlas':str(atlas),'sha256':hashlib.sha256(atlas.read_bytes()).hexdigest(),'source':'decoded final encoded atlas, fixed 192x208 cell crops','standard_frames':57,'look_frames':16,'previews':sorted(p.name for p in out.glob('*.gif'))}
 (out/'preview-provenance.json').write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 '@
-& python -c $petPreviewCode $SkillScripts $petEncodedFrames $petPreviewRoot $petFinalAtlas
+& $Python -c $petPreviewCode $SkillScripts $petEncodedFrames $petPreviewRoot $petFinalAtlas
 if ($LASTEXITCODE -ne 0) { throw 'Combined preview export failed' }
 & ffmpeg -hide_banner -loglevel error -nostdin -y -i (Join-Path $petPreviewRoot 'all-states.gif') -vf 'format=yuv420p' -movflags +faststart (Join-Path $petPreviewRoot 'all-states.mp4')
 if ($LASTEXITCODE -ne 0) { throw 'MP4 export failed' }

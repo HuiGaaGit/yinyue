@@ -45,7 +45,8 @@ def main() -> None:
         records = [{"path": path.relative_to(ROOT).as_posix(),
                     "bytes": path.stat().st_size, "sha256": digest(path)}
                    for path in snapshot_files()]
-        payload = {"schema_version": 1, "checkpoint": "2026-10-14-upgrade",
+        status = json.loads((ROOT / "docs/checkpoint-status.json").read_text(encoding="utf-8-sig"))
+        payload = {"schema_version": 1, "checkpoint": status["checkpoint"],
                    "purpose": "File integrity for cross-computer continuation; not final artwork approval.",
                    "files": records}
         MANIFEST.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

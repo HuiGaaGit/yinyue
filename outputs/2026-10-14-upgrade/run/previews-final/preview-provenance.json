@@ -1,0 +1,21 @@
+{
+  "atlas": "D:\\个人文件夹\\万能文件夹\\06银月桌宠\\outputs\\2026-10-14-upgrade\\run\\final\\spritesheet-v2-20261016-r2.webp",
+  "sha256": "f3b2687fa42bf82f5aa9135e3a774a383373b85303c6810d4829f1cb515d425d",
+  "source": "decoded final encoded atlas, fixed 192x208 cell crops",
+  "standard_frames": 57,
+  "look_frames": 16,
+  "previews": [
+    "all-states.gif",
+    "failed.gif",
+    "idle-jump-idle.gif",
+    "idle.gif",
+    "jumping.gif",
+    "look-loop.gif",
+    "review.gif",
+    "running-left.gif",
+    "running-right.gif",
+    "running.gif",
+    "waiting.gif",
+    "waving.gif"
+  ]
+}

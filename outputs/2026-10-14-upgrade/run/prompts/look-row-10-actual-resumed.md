@@ -1,0 +1,14 @@
+Use case: identity-preserve. Draw ONE coherent horizontal EIGHT-pose look strip for the SECOND HALF of Yinyue's clockwise gaze loop. Every pose is generated together, not mirrored or assembled from unrelated cells.
+References: image 1 canonical Yinyue controls identity/detail; image 2 approved cardinals in order UP, SCREEN-RIGHT, DOWN, SCREEN-LEFT; image 3 is the COMPLETED first-half row (up through right to down-right) to match head construction, body, size and boundary continuity; image 4 is the practical roomy spacing guide, use its compact figure size and blank gaps but NOT its repeated neutral gaze.
+Same silver-white long-haired fox-eared chibi girl, amber eyes with unchanged natural iris/eyelid construction, white detached embroidered sleeves, white/red short shrine outfit, large red front waist bow, red sashes, and matching white boots with silver diamonds/red knots. Keep the torso FRONT-facing, both boots planted at the SAME coordinates, hands relaxed at sides, waist bow/skirt and lower hair anchored. Eyes lead, head naturally pitches/turns, ears and upper hair follow. Keep the face and both eyes visible, no backward head or whole-body turntable.
+Exactly eight frames, LEFT TO RIGHT, using VIEWER coordinates:
+1 DOWN (6 o'clock, 180): clearly bowed head and eyes aimed DOWN with visible eyes, matching the approved DOWN anchor; continue smoothly from the last down-right pose in image 3.
+2 DOWN-left (6:45): mostly DOWN with a small but visible screen-LEFT head/gaze component.
+3 DOWN-LEFT (7:30): clear lowered head/eyes AND leftward turn/gaze.
+4 LEFT-down (8:15): predominantly screen-left with chin and eyes still BELOW horizontal.
+5 SCREEN-LEFT (9 o'clock, 270): nose/face and irises turn LEFT as the approved LEFT anchor.
+6 LEFT-up (9:45): predominantly screen-left with eyes/chin ABOVE horizontal.
+7 UP-LEFT (10:30): both leftward turn/gaze AND raised head/eyes.
+8 UP-left (11:15): mostly UP, with a small LEFT component; approach the very first UP pose of image 3 naturally.
+The first four look DOWN, last three look UP. No neutral instead of a cardinal, no closed eyes to fake looking down, no right-facing quadrant, no reversal, no replacement pupils. Match the head/face proportions and planted stance of completed row 3 across both boundary transitions.
+OUTPUT SPACING IS CRITICAL: wide 3:1 landscape with actual transparent alpha. Exactly eight SMALL COMPLETE sprites centered vertically in one row. Figure height only about ONE THIRD of total canvas height, as image 4; leave LARGE EMPTY transparent gaps at least half a character width on both sides and outer margins. Do not fill the canvas height. No two hair strands, cuffs, hands or sashes may touch. All eight share one scale/camera/ground line. No labels, degrees, boxes, numbers, guide strokes, scenery, shadows, effects, props or tail.

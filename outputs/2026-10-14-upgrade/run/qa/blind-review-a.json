@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"Horizontal pair 1","A":"screen-right","B":"screen-left","reason":"A 的鼻尖和面部中线偏向画面右侧，双眼透视也向右收拢；B 的鼻尖与面部中线偏向画面左侧。两者均略抬头，但左右朝向可分辨。"},
+    {"pair":"Horizontal pair 2","A":"screen-left","B":"screen-right","reason":"A 的鼻尖朝左，左侧面部轮廓向左伸出；B 的鼻尖朝右，右侧脸部轮廓伸出，双眼呈相反的透视差。"},
+    {"pair":"Horizontal pair 3","A":"screen-right","B":"screen-left","reason":"A 呈朝右的面部侧转，鼻尖和下巴轮廓朝右；B 呈朝左的侧转，鼻尖朝左，远侧眼受到刘海和透视压缩。"},
+    {"pair":"Horizontal pair 4","A":"screen-right","B":"screen-left","reason":"A 的眼鼻与下巴整体朝右，右侧形成突出的脸部轮廓；B 的脸部轮廓、鼻尖及视线方向均朝左。"},
+    {"pair":"Horizontal pair 5","A":"screen-right","B":"screen-left","reason":"A 低头同时向右侧转，鼻尖位于脸部可见区域的右侧；B 低头同时向左侧转，鼻尖及眼睛的透视收拢方向朝左。"},
+    {"pair":"Horizontal pair 6","A":"screen-left","B":"screen-right","reason":"A 的低垂面孔偏左，鼻尖向左且左侧眼较受透视压缩；B 的低垂面孔偏右，鼻尖和下巴转向右侧。"},
+    {"pair":"Horizontal pair 7","A":"screen-left","B":"screen-right","reason":"A 虽接近正面低头，鼻尖仍偏左，画面左眼较窄、右眼较展开；B 鼻尖偏右，画面右眼较窄，脸部侧转更明显。"},
+    {"pair":"Vertical pair 1","A":"down","B":"up","reason":"A 的头顶和刘海占比增加，眼睑压低、下巴收起，面孔朝下；B 眼睛朝上展开，鼻尖抬起、下巴与颈部之间更敞开，面孔朝上。"},
+    {"pair":"Vertical pair 2","A":"down","B":"up","reason":"A 的眉眼藏在下垂刘海下，眼睑压低且下巴内收；B 的眼睛向上看、鼻尖上扬，下颌抬高。判断依据为面部俯仰。"},
+    {"pair":"Vertical pair 3","A":"up","B":"down","reason":"A 的脸部中线向上抬起，鼻尖及视线朝上，下巴抬起；B 的额头向前压，眼睑降低、鼻尖向下，下巴收向颈部。"},
+    {"pair":"Vertical pair 4","A":"up","B":"down","reason":"A 的鼻尖上扬、双眼向上展开，下颌轮廓抬高；B 的俯角较浅，但眉眼和鼻尖位置较低、下巴内收，呈轻微向下俯视。"},
+    {"pair":"Vertical pair 5","A":"down","B":"up","reason":"A 的头顶较突出，刘海压住眉眼，低垂眼睑与内收下巴显示低头；B 的眼睛向上看，鼻尖抬起，下颌和颈部更展开。"},
+    {"pair":"Vertical pair 6","A":"down","B":"up","reason":"A 的侧转面孔向下，鼻尖低垂、眼睑压低、下巴内收；B 的侧转面孔抬起，眼睛和鼻尖朝上，下巴离开颈部。"},
+    {"pair":"Vertical pair 7","A":"up","B":"down","reason":"A 的侧脸鼻尖朝上，双眼上望，抬起的下颌露出颈部；B 的额头前倾，眼睛位于刘海下方，鼻尖和下巴向下收拢。"}
+  ]
+}

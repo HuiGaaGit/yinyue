@@ -1,6 +1,8 @@
 # 在另一台电脑继续银月升级
 
-检查点日期：2026-10-14。仓库：`HuiGaaGit/yinyue`。分支：`checkpoint/2026-10-14-upgrade`。
+最新检查点日期：2026-10-16。仓库：`HuiGaaGit/yinyue`。分支：`checkpoint/2026-10-16-final-candidate`。
+
+**先阅读 [最新会话记录](sessions/2026-10-16_06-25.md)。下面“现在已有的成果”之后保留的是10月14日历史细节，不能作为当前待办。** 当前已完成9类57帧动作、4方位锚点及16个视线方向；不要再次修复已经通过的步态或重画方向。最新候选为 `run/final/spritesheet-v2-20261016-r2.webp`，SHA256为 `f3b2687fa42bf82f5aa9135e3a774a383373b85303c6810d4829f1cb515d425d`。先核验综合质量/Pets预检及正式更新状态。
 
 这是未完成的进度备份。根目录的 `pet.json`、`spritesheet.webp` 仍是旧版正式资源；本次新素材均在 `outputs/2026-10-14-upgrade/`。
 
@@ -9,12 +11,12 @@
 1. 用有GitHub访问权限的账户克隆这个分支：
 
 ```powershell
-git clone --branch checkpoint/2026-10-14-upgrade https://github.com/HuiGaaGit/yinyue.git "06银月桌宠"
+git clone --branch checkpoint/2026-10-16-final-candidate https://github.com/HuiGaaGit/yinyue.git "06银月桌宠"
 ```
 
 2. 在另一台电脑的Codex中打开克隆后的 `06银月桌宠` 文件夹，发送：
 
-> 请先读 AGENTS.md 和 docs/RESUME.md，校验检查点，再恢复 docs/sessions/2026-10-14_20-31.md，继续完成银月PET升级。优先修复左右移动步态，再检查已找回的四方位候选；复用已通过素材，完成方向动作、最终预览和原PET更新。
+> 请先读 AGENTS.md 和 docs/RESUME.md，校验检查点，再恢复 docs/sessions/2026-10-16_06-25.md。复用已经完成的73帧图集，先核实云端是否已被原机器更新，然后完成仍缺少的最终门禁、预览确认和原PET更新，不要重复生图。
 
 3. 新会话先调用 `load_workspace_dependencies` 获取本机bundled Python路径，把下面的 `$petPy` 设为工具实际返回的Python路径。在克隆仓库根目录执行：
 
@@ -29,7 +31,11 @@ git clone --branch checkpoint/2026-10-14-upgrade https://github.com/HuiGaaGit/yi
 
 当前本地会话已成功获取bundled runtime。历史恢复记录中“委托线程缺少依赖工具”的限制仅描述当时那个线程；新电脑必须重新检查自己的工具能力。
 
-## 现在已有的成果
+## 10月14日历史检查点细节
+
+以下内容保留用于追溯；当前状态和下一步以最新会话记录为准。
+
+### 当时已有的成果
 
 | 内容 | 路径 | 状态 |
 | --- | --- | --- |
