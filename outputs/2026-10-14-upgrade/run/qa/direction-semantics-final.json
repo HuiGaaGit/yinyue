@@ -1,0 +1,23 @@
+{
+  "atlas_sha256": "f3b2687fa42bf82f5aa9135e3a774a383373b85303c6810d4829f1cb515d425d",
+  "method": "Parent native-size labeled review; independent final visual review; three isolated A/B axis reviewers",
+  "directions": [
+    {"label":"000","expected":"up","observed":"Head faces front with chin lifted and irises aimed overhead.","verdict":"pass","evidence":"Visible lower chin/neck, lifted pupils and symmetric front-facing torso; not neutral."},
+    {"label":"022.5","expected":"up-right","observed":"Predominantly up with a small screen-right turn.","verdict":"pass","evidence":"Chin stays lifted, nose and irises shift to viewer right; both axes remain visible."},
+    {"label":"045","expected":"up-right","observed":"Raised head and rightward gaze.","verdict":"pass","evidence":"Upward eye surfaces and visible chin lift accompany rightward nose/face displacement."},
+    {"label":"067.5","expected":"up-right","observed":"Strong rightward head turn with an upward gaze.","verdict":"pass","evidence":"Nose points right; eyes and chin aim above horizontal; lower body remains front-facing."},
+    {"label":"090","expected":"right","observed":"Clear screen-right gaze and head turn.","verdict":"pass","evidence":"Nose tip and irises aim toward the right edge; front bow and boots stay anchored."},
+    {"label":"112.5","expected":"down-right","observed":"Rightward gaze with a shallow downward pitch.","verdict":"warning","evidence":"Lowered chin and eye line distinguish it from 090; vertical component is subtle but readable in labeled loop and blind review."},
+    {"label":"135","expected":"down-right","observed":"Rightward turn with lowered head and eyes.","verdict":"pass","evidence":"Nose/face remain right of head center while eyelids and chin angle downward."},
+    {"label":"157.5","expected":"down-right","observed":"Mostly downward bow retaining a right component.","verdict":"pass","evidence":"Downward lids and chin with a small rightward face turn; both eyes remain visible."},
+    {"label":"180","expected":"down","observed":"Head and eyes clearly lowered toward the feet.","verdict":"pass","evidence":"Centered face, bowed chin and downward lids; eyes remain open, torso planted."},
+    {"label":"202.5","expected":"down-left","observed":"Downward bow with a slight leftward gaze.","verdict":"pass","evidence":"Nose/irises move to viewer left while the lowered chin and eye line preserve down."},
+    {"label":"225","expected":"down-left","observed":"Visible leftward head turn and downward gaze.","verdict":"pass","evidence":"Left-facing nose and irises plus low eye line; shoulders and front bow stay fixed."},
+    {"label":"247.5","expected":"down-left","observed":"Predominantly left with a downward pitch.","verdict":"pass","evidence":"Leftward facial foreshortening and lowered lids/chin express both axes."},
+    {"label":"270","expected":"left","observed":"Clear screen-left gaze and head turn.","verdict":"pass","evidence":"Nose and irises point toward viewer left; body and boots remain front-facing."},
+    {"label":"292.5","expected":"up-left","observed":"Leftward turn with a raised chin and gaze.","verdict":"pass","evidence":"Upward eye line/visible lower chin accompany the left-facing nose."},
+    {"label":"315","expected":"up-left","observed":"Both upward pitch and leftward gaze are visible.","verdict":"pass","evidence":"Raised eyes/chin and leftward face turn maintain the upper-left quadrant."},
+    {"label":"337.5","expected":"up-left","observed":"Mostly up with a small remaining leftward component.","verdict":"pass","evidence":"Lifted chin and irises approach 000 while nose/face still lean left; ordered wrap is coherent."}
+  ],
+  "continuity_review": "Both boundaries inspected in final native ordered frames: body/boots fixed, no conspicuous scale pop, no reversed quadrant, no broken attachments. Numeric continuity has no warnings or alpha holes."
+}

@@ -1,4 +1,18 @@
-# 在另一台电脑继续银月升级
+# 银月升级后的安装与维护
+
+**当前状态：2026-10-16升级已完成。** 根目录 `spritesheet.webp` 已是新版，9类动作57帧和16方向共73帧通过最终检查，原银月ID及本机安装已更新。当前事实见 [发布记录](RELEASE-20261016.md)，不要重做下方历史待办。
+
+正式文件为 `outputs/2026-10-14-upgrade/run/final/spritesheet-v2-20261016-r2.webp`，SHA256 `f3b2687fa42bf82f5aa9135e3a774a383373b85303c6810d4829f1cb515d425d`。根目录及安装副本与其一致；云端转存PNG的RGBA像素已核对一致。
+
+另一台电脑可克隆/拉取分支 `checkpoint/2026-10-14-upgrade`，先通过 `load_workspace_dependencies`取得该机Python，再执行 `scripts/checkpoint.py verify`。只需安装时复制根目录的 `pet.json` 和 `spritesheet.webp` 到 `%USERPROFILE%\.codex\pets\yinyue\`，不要再次更新云端或新建重复宠物。
+
+继续修改时先读当前AGENTS、README、发布记录、最新会话。按需运行 `scripts/rehydrate_checkpoint.py` 重定位操作清单；若修改它们，需重写检查点清单。不要重跑 `prepare_pet_run.py --force` 覆盖素材。
+
+正式预览位于 `run/previews-final/`；最终门禁、盲审和源图尺度处理见发布记录。使用 `export-final-previews.ps1` 时传入 `-Python` 的bundled路径，`-OutputDirectory`可单独保留修订。
+
+## 以下为2026-10-14未完成检查点的历史记录
+
+下面段落仅供追溯，描述的是升级前状态；其中移动、方向和上传待办均已完成，不是当前操作指令。
 
 检查点日期：2026-10-14。仓库：`HuiGaaGit/yinyue`。分支：`checkpoint/2026-10-14-upgrade`。
 

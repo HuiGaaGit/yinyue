@@ -1,0 +1,24 @@
+{
+  "ok": false,
+  "errors": [
+    "missing blind verdict for horizontal-1",
+    "missing blind verdict for horizontal-2",
+    "missing blind verdict for horizontal-3",
+    "missing blind verdict for horizontal-4",
+    "missing blind verdict for horizontal-5",
+    "missing blind verdict for horizontal-6",
+    "missing blind verdict for horizontal-7",
+    "missing blind verdict for vertical-1",
+    "missing blind verdict for vertical-2",
+    "missing blind verdict for vertical-3",
+    "missing blind verdict for vertical-4",
+    "missing blind verdict for vertical-5",
+    "missing blind verdict for vertical-6",
+    "missing blind verdict for vertical-7",
+    "unexpected blind verdict pairs: Horizontal pair 1, Horizontal pair 2, Horizontal pair 3, Horizontal pair 4, Horizontal pair 5, Horizontal pair 6, Horizontal pair 7, Vertical pair 1, Vertical pair 2, Vertical pair 3, Vertical pair 4, Vertical pair 5, Vertical pair 6, Vertical pair 7"
+  ],
+  "warnings": [],
+  "unconfirmed": [],
+  "reviewRequired": false,
+  "pairs": []
+}

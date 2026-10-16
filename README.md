@@ -1,8 +1,10 @@
 # 银月
 
-> **2026-10-14升级检查点**：当前分支保存了精细化形象、9类动作候选、全部生成记录和检查结果。左右移动步态和16个看向方向仍待完成，根目录正式资源尚未替换。
+> **2026-10-16 升级已发布**：精细化形象、左右交替小步、9类动作及16个看向方向均已完成，原银月云端记录和本机安装已更新。名称、稳定ID和当前宠物选择保持。
 >
-> 在另一台电脑继续，请先阅读 [续做说明](docs/RESUME.md) 和 [会话进度](docs/sessions/2026-10-14_20-31.md)。[查看动作候选总览](outputs/2026-10-14-upgrade/run/qa/contact-sheet.png)。
+> [发布与验收记录](docs/RELEASE-20261016.md) · [完整动作GIF](outputs/2026-10-14-upgrade/run/previews-final/all-states.gif) · [MP4](outputs/2026-10-14-upgrade/run/previews-final/all-states.mp4) · [最终逐帧总览](outputs/2026-10-14-upgrade/run/qa/contact-sheet-final.png)
+
+其他电脑的安装与后续维护见 [续做说明](docs/RESUME.md)。源图、失败稿、实际提示词和验收报告保留在 `outputs/2026-10-14-upgrade/`，旧正式图备份在其中的 `source/`。
 
 银月是一个 Codex 自定义桌面宠物。它是一只银白长发、狐耳、白色巫女风服饰的小型 chibi 宠物，使用透明 WebP 精灵图集呈现待机、移动、挥手、跳跃、失败、等待、运行中和审阅等状态。
 

@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A鼻尖与面部露出方向偏画面右，左侧眼更完整；B鼻尖偏画面左，右侧眼与脸颊更完整。"
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A鼻口朝画面左，脸的右侧轮廓更展开；B鼻口朝画面右，左侧眼与脸颊更展开。"
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A鼻尖和下颌朝画面右，右侧远眼较窄；B鼻尖和下颌朝画面左，左侧远眼较窄。"
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A面部向画面右转，左眼更完整且鼻尖偏右；B向画面左转，右眼更完整且鼻尖偏左。"
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A虽略低头，鼻尖和下颌仍朝画面右；B低头时鼻尖朝画面左，右侧眼更完整。"
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A俯头后鼻口偏画面左，右眼更完整；B鼻口偏画面右，左眼更完整。"
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "两者低头较深。A鼻尖和下颌略偏画面左，右侧眼更完整；B鼻尖及下颌偏画面右，左侧眼更完整。"
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A上眼睑下压、额发遮眼且下巴收向领口，头明显下俯；B眼睛上望、鼻尖抬起，下颌伸展。"
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "A头向前下方压低，眼睑下垂且下巴内收；B眼睛看向上方，鼻尖和下颌上抬。"
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A眼睛上望，鼻尖与下颌抬起；B额发压向眼部、眼睑下垂，下巴收向衣领。"
+    },
+    {
+      "pair": "vertical-4",
+      "A": "up",
+      "B": "down",
+      "reason": "A侧转时眼睛上望、下颌伸出，呈抬头；B侧转时眼睑与鼻尖向下、下巴略收，呈较轻的低头。"
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "A双眼受额发和下压眼睑遮挡，下颌内收；B双眼上望，鼻尖及下颌抬高。"
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A低眉垂眼，头前倾且下巴靠近衣领；B眼睛向上看，脸部和下颌向上展开。"
+    },
+    {
+      "pair": "vertical-7",
+      "A": "up",
+      "B": "down",
+      "reason": "A侧脸的眼睛上望、鼻尖上扬且下颌伸展；B眼睑下压，鼻尖和下颌朝下，头向前俯。"
+    }
+  ]
+}

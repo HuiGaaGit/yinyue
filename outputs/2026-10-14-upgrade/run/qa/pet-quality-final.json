@@ -1,0 +1,63 @@
+{
+  "ok": true,
+  "atlas": "D:\\\u4e2a\u4eba\u6587\u4ef6\u5939\\\u4e07\u80fd\u6587\u4ef6\u5939\\06\u94f6\u6708\u684c\u5ba0\\outputs\\2026-10-14-upgrade\\run\\final\\spritesheet-v2-20261016-r2.webp",
+  "encoded_bytes": 1897942,
+  "sha256": "f3b2687fa42bf82f5aa9135e3a774a383373b85303c6810d4829f1cb515d425d",
+  "jump": {
+    "idle_baseline": 202,
+    "jump_baselines": [
+      201,
+      181,
+      157,
+      189,
+      202
+    ],
+    "airborne_lift_pixels": 45,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 95.5,
+    "look_centers_x": [
+      93.5,
+      90.5,
+      88.0,
+      87.5,
+      88.0,
+      88.5,
+      88.0,
+      89.0,
+      93.0,
+      93.5,
+      94.0,
+      94.0,
+      94.5,
+      93.5,
+      94.0,
+      94.0
+    ],
+    "look_widths": [
+      101,
+      99,
+      100,
+      101,
+      98,
+      101,
+      100,
+      98,
+      104,
+      103,
+      102,
+      102,
+      101,
+      103,
+      102,
+      102
+    ],
+    "maximum_center_drift_pixels": 8.0,
+    "maximum_width_ratio": 1.0612244897959184
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 112.5 accepted with a reviewed warning"
+  ]
+}

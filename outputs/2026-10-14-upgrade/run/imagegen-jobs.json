@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-14T00:42:37.585502+00:00",
-  "run_dir": "D:\\\u4e2a\u4eba\u6587\u4ef6\u5939\\\u4e07\u80fd\u6587\u4ef6\u5939\\06\u94f6\u6708\u684c\u5ba0\\outputs\\2026-10-14-upgrade\\run",
+  "run_dir": "D:/\u4e2a\u4eba\u6587\u4ef6\u5939/\u4e07\u80fd\u6587\u4ef6\u5939/06\u94f6\u6708\u684c\u5ba0/outputs/2026-10-14-upgrade/run",
   "primary_generation_skill": "$imagegen",
   "jobs": [
     {
@@ -11,7 +11,7 @@
       "prompt_file": "prompts/base-pet.md",
       "input_images": [
         {
-          "path": "references\\reference-01.webp",
+          "path": "references/reference-01.webp",
           "role": "pet reference"
         }
       ],
@@ -29,7 +29,7 @@
       "retry_prompt_file": "prompts/row-retries/idle.md",
       "input_images": [
         {
-          "path": "references\\reference-01.webp",
+          "path": "references/reference-01.webp",
           "role": "pet reference"
         },
         {
@@ -63,13 +63,13 @@
     {
       "id": "running-right",
       "kind": "row-strip",
-      "status": "needs-repair",
-      "review_note": "Independent visual review found no exchange of the two legs; structural checks passed but this row is not semantically accepted.",
+      "status": "complete",
+      "review_note": "2026-10-15 resumed attempt 03 accepted after native-cell parent and two independent visual reviews: alternating hip/knee connections, planted support and coherent 4-to-5 and 8-to-1 transitions. Earlier failed attempts and corrected initial review retained.",
       "prompt_file": "prompts/rows/running-right.md",
       "retry_prompt_file": "prompts/row-retries/running-right.md",
       "input_images": [
         {
-          "path": "references\\reference-01.webp",
+          "path": "references/reference-01.webp",
           "role": "pet reference"
         },
         {
@@ -103,13 +103,13 @@
     {
       "id": "running-left",
       "kind": "row-strip",
-      "status": "needs-repair",
-      "review_note": "Inherits the rightward gait defect. Rebuild after running-right is visually approved.",
+      "status": "complete",
+      "review_note": "Rebuilt from the accepted alternating march, preserving frame order. Final native visual review passed; earlier gait failures retained.",
       "prompt_file": "prompts/rows/running-left.md",
       "retry_prompt_file": "prompts/row-retries/running-left.md",
       "input_images": [
         {
-          "path": "references\\reference-01.webp",
+          "path": "references/reference-01.webp",
           "role": "pet reference"
         },
         {
@@ -156,7 +156,7 @@
       },
       "source_path": "decoded\\running-right.png",
       "derived_from": "running-right",
-      "completed_at": "2026-10-14T01:08:45.176457+00:00",
+      "completed_at": "2026-10-15T17:31:30.294661+00:00",
       "metadata": {
         "width": 2172,
         "height": 724,
@@ -165,8 +165,8 @@
       },
       "mirror_decision": {
         "approved": true,
-        "approved_at": "2026-10-14T01:08:45.176457+00:00",
-        "note": "Parent visually approved the fresh small-step rightward strip. Outfit, front bow, paired shoulder ornaments and boots are bilaterally symmetric; diffuse lighting, no handed prop or side-specific emblem. Framewise mirroring preserves temporal order and identity.",
+        "approved_at": "2026-10-15T17:31:30.294661+00:00",
+        "note": "Accepted alternating march; bilateral outfit, no handed props, neutral frontal lighting. Mirror each frame without reversing temporal order.",
         "transform": "framewise-horizontal-mirror-preserving-order"
       }
     },
@@ -178,7 +178,7 @@
       "retry_prompt_file": "prompts/row-retries/waving.md",
       "input_images": [
         {
-          "path": "references\\reference-01.webp",
+          "path": "references/reference-01.webp",
           "role": "pet reference"
         },
         {
@@ -217,7 +217,7 @@
       "retry_prompt_file": "prompts/row-retries/jumping.md",
       "input_images": [
         {
-          "path": "references\\reference-01.webp",
+          "path": "references/reference-01.webp",
           "role": "pet reference"
         },
         {
@@ -256,7 +256,7 @@
       "retry_prompt_file": "prompts/row-retries/failed.md",
       "input_images": [
         {
-          "path": "references\\reference-01.webp",
+          "path": "references/reference-01.webp",
           "role": "pet reference"
         },
         {
@@ -295,7 +295,7 @@
       "retry_prompt_file": "prompts/row-retries/waiting.md",
       "input_images": [
         {
-          "path": "references\\reference-01.webp",
+          "path": "references/reference-01.webp",
           "role": "pet reference"
         },
         {
@@ -334,7 +334,7 @@
       "retry_prompt_file": "prompts/row-retries/running.md",
       "input_images": [
         {
-          "path": "references\\reference-01.webp",
+          "path": "references/reference-01.webp",
           "role": "pet reference"
         },
         {
@@ -373,7 +373,7 @@
       "retry_prompt_file": "prompts/row-retries/review.md",
       "input_images": [
         {
-          "path": "references\\reference-01.webp",
+          "path": "references/reference-01.webp",
           "role": "pet reference"
         },
         {
@@ -407,7 +407,9 @@
     {
       "id": "look-cardinals",
       "kind": "look-cardinal-strip",
-      "status": "pending",
+      "status": "complete",
+      "actual_prompt_file": "prompts/look-cardinals-actual.md",
+      "review_note": "Recovered source reused after removing alpha=1 background noise. Official extraction and native semantic review passed; see qa/cardinal-anchors/visual-review.md.",
       "prompt_file": "prompts/look-cardinals.md",
       "repair_prompt_files": {
         "000": "prompts/look-anchor-repairs/000.md",
@@ -417,7 +419,7 @@
       },
       "input_images": [
         {
-          "path": "references\\reference-01.webp",
+          "path": "references/reference-01.webp",
           "role": "pet reference"
         },
         {
@@ -485,12 +487,14 @@
     {
       "id": "look-row-9",
       "kind": "look-row-strip",
-      "status": "pending",
+      "status": "complete",
+      "actual_prompt_files": ["prompts/look-row-9-actual-resumed.md", "prompts/look-row-9-spacing-repair.md"],
+      "review_note": "Coherent eight-pose row accepted after spacing repair. Registered native review, final semantics and isolated blind axes passed; see qa/look-row-9-review.md.",
       "prompt_file": "prompts/rows/look-row-9.md",
       "retry_prompt_file": "prompts/row-retries/look-row-9.md",
       "input_images": [
         {
-          "path": "references\\reference-01.webp",
+          "path": "references/reference-01.webp",
           "role": "pet reference"
         },
         {
@@ -545,12 +549,15 @@
     {
       "id": "look-row-10",
       "kind": "look-row-strip",
-      "status": "pending",
+      "status": "complete",
+      "actual_prompt_file": "prompts/look-row-10-actual-resumed.md",
+      "registered_source_path": "qa/look-row-10-source-scale-registered.png",
+      "review_note": "Coherent eight-pose row accepted after uniform whole-source scale registration; no per-cell scaling. Final continuity, semantics, blind axes and visual review passed.",
       "prompt_file": "prompts/rows/look-row-10.md",
       "retry_prompt_file": "prompts/row-retries/look-row-10.md",
       "input_images": [
         {
-          "path": "references\\reference-01.webp",
+          "path": "references/reference-01.webp",
           "role": "pet reference"
         },
         {

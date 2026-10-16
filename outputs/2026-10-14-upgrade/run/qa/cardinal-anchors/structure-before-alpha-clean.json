@@ -1,0 +1,66 @@
+{
+  "ok": false,
+  "strip": "D:\\\u4e2a\u4eba\u6587\u4ef6\u5939\\\u4e07\u80fd\u6587\u4ef6\u5939\\06\u94f6\u6708\u684c\u5ba0\\outputs\\2026-10-14-upgrade\\run\\qa\\recovery\\look-cardinals-interrupted-source.png",
+  "directions": [
+    "000",
+    "090",
+    "180",
+    "270"
+  ],
+  "errors": [
+    "000 has 134 non-transparent pixels near its source slot edge",
+    "090 has 109 non-transparent pixels near its source slot edge",
+    "180 has 183 non-transparent pixels near its source slot edge",
+    "270 has 161 non-transparent pixels near its source slot edge"
+  ],
+  "anchors": [
+    {
+      "direction": "000",
+      "source_box": [
+        0,
+        0,
+        542,
+        725
+      ],
+      "used_pixels": 204515,
+      "edge_pixels": 134,
+      "output": "D:\\\u4e2a\u4eba\u6587\u4ef6\u5939\\\u4e07\u80fd\u6587\u4ef6\u5939\\06\u94f6\u6708\u684c\u5ba0\\outputs\\2026-10-14-upgrade\\run\\qa\\cardinal-anchors\\000.png"
+    },
+    {
+      "direction": "090",
+      "source_box": [
+        542,
+        0,
+        1085,
+        725
+      ],
+      "used_pixels": 201451,
+      "edge_pixels": 109,
+      "output": "D:\\\u4e2a\u4eba\u6587\u4ef6\u5939\\\u4e07\u80fd\u6587\u4ef6\u5939\\06\u94f6\u6708\u684c\u5ba0\\outputs\\2026-10-14-upgrade\\run\\qa\\cardinal-anchors\\090.png"
+    },
+    {
+      "direction": "180",
+      "source_box": [
+        1085,
+        0,
+        1628,
+        725
+      ],
+      "used_pixels": 200441,
+      "edge_pixels": 183,
+      "output": "D:\\\u4e2a\u4eba\u6587\u4ef6\u5939\\\u4e07\u80fd\u6587\u4ef6\u5939\\06\u94f6\u6708\u684c\u5ba0\\outputs\\2026-10-14-upgrade\\run\\qa\\cardinal-anchors\\180.png"
+    },
+    {
+      "direction": "270",
+      "source_box": [
+        1628,
+        0,
+        2170,
+        725
+      ],
+      "used_pixels": 199106,
+      "edge_pixels": 161,
+      "output": "D:\\\u4e2a\u4eba\u6587\u4ef6\u5939\\\u4e07\u80fd\u6587\u4ef6\u5939\\06\u94f6\u6708\u684c\u5ba0\\outputs\\2026-10-14-upgrade\\run\\qa\\cardinal-anchors\\270.png"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "format": "PNG",
+  "dimensions": [
+    1536,
+    2288
+  ],
+  "stored_sha256": "fe8585d7ce6da2eb73df7526209aec88671e0bab70a8987492032dbf3541b97d",
+  "uploaded_sha256": "f3b2687fa42bf82f5aa9135e3a774a383373b85303c6810d4829f1cb515d425d",
+  "byte_identical": false,
+  "rgba_identical": true,
+  "stored_file": "outputs/2026-10-14-upgrade/source/stored-after-release-20261016.png"
+}
